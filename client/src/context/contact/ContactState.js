@@ -11,7 +11,6 @@ import {
   SET_CURRENT,
   CLEAR_CURRENT
 } from '../type'
-import contactContext from './contactContext';
 
 const ContactState = props => {
   const initialState = {
