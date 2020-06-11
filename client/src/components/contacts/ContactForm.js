@@ -14,7 +14,7 @@ const ContactForm = () => {
   const onChange = (event) => setContact({...contact, [event.target.name]: event.target.value});
   const onSubmit = (event) => {
     event.preventDefault();
-    // contactContext.addContact(contact);
+    contactContext.addContact(contact);
     setContact({
       name: '',
       email: '',
